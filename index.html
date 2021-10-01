@@ -1,12 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<html lang="en-US">
+    <head>
+       <meta charset='utf-8'>
+       <title>My Introduction</title>
+       <script>
+ 
+        const dayNames = [
+            "Sunday",
+            "Monday",
+            "Tuesday", 
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+            
+        ]; 
+        
+         
+        const months = [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ];
+    
+        const todaysdate = new Date("2015-03-07");
+        const dayName = dayNames [todaysdate.getDay()];
+        const monthName = months [todaysdate.getMonth()];
+        const currentdate = dayName + "," + todaysdate.getDate() + " " + monthName + "," + todaysdate.getFullYear();
+        
+        document.getElementById("time").innerHTML = todaysdate;
+         
+        
+        
+        </script>
+    </head>
 <body>
-    Change buddy
-</body>
+  <h1 class="top-1">
+Harvey Gagabe Sagario  
+<img class= "img-1" src='https://cdn.glitch.com/3bd1770c-6239-4f63-940f-12542f4beed8%2FIMG20210125130901.jpg?v=1628581112352' style="width:150px;height:150px;"> 
+</h1>
+<h2>
+CIT 230:Assignment Portal
+</h2>
+  <ul>
+    <li> <a href=''>Lesson 1: Blank</a></li>
+    <li><a href=''>Lesson 1: Blank</a></li>
+    <li><a href=''>Lesson 1: Blank</a></li>
+    </ul>
+  
+</body>  
+<footer class='btm-1'>
+  @2021 | Harvey Sagario | Philippines | BYU Online<br>
+        <h6>Last update: <p id="time">Saturday September 19 2021 </p></h6>
+  
+</footer>  
+  
+
+<style>
+  body {
+    max-width:600px;
+    align-item:center;
+  }
+.top-1 {
+    background-color:rgb(183, 183, 226);
+    max-width:800px;
+    text-align:center;
+  
+    border-radius:25px;
+    display:flex;
+   justify-content:flex-end;
+  }
+  .img-1 {
+    padding:20px;
+  }
+
+  .btm-1 {
+    text-align:center;
+    background-color:rgb(183, 183, 226);
+    font-size:25px;
+    border-radius:25px;
+  }
+  html {
+    border-radius:10px;
+    
+  }
+ 
+</style>
 </html>
+
