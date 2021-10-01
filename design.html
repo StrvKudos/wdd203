@@ -1,0 +1,148 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<h1 class="top-1">
+		Harvey Gagabe Sagario  
+		<img class= "img-1" src='https://cdn.glitch.com/3bd1770c-6239-4f63-940f-12542f4beed8%2FIMG20210125130901.jpg?v=1628581112352' style="width:150px;height:150px;"> 
+		</h1>
+
+
+<main>
+	<section>
+		<h1>Repetition</h1>
+		<h2><a href="https://www.lazada.com.ph/">Lazada</a></h2>
+		<img src="https://cdn.glitch.com/3bd1770c-6239-4f63-940f-12542f4beed8%2F242684912_1028470784651523_8487396331201785617_n.jpg?v=1632514374293" style="width:200px;height:500px;">
+		<p>The page is so user friendly that if you search categories if you know how to navigate on the first category
+			it will be the same thing that you would need to do on the next categories that you need because the design of it is all the same.
+
+		</p>
+	
+	</section>
+	<section>
+		<h1>White Space and Clean Design </h1>
+		<h2><a href="https://myflixer.to/">Myflixer</a></h2>
+		<img src="https://cdn.glitch.com/3bd1770c-6239-4f63-940f-12542f4beed8%2F242921288_236875238383362_8182152135048120041_n.jpg?v=1632514378899" style="width:200px;height:500px;">
+		</a>
+	
+		<p>The page became so simple and direct because of the white space that is has. It will immediately
+			ask you what is the title of the movie that you need. The white space around the search button is 
+			so helpful to focus the main action that a user want to use.
+		</p>
+	</section>
+	<section>
+		<h1>Contrast</h1>
+		<h2> <a href="">Shoppee</a></h2>
+		<img src="https://cdn.glitch.com/3bd1770c-6239-4f63-940f-12542f4beed8%2F242469091_839541660075062_5530403587065647809_n.jpg?v=1632631458704" style="width:200px;height:500px;">
+		<p>There is so much advestisement showing up in the app that you dont even know what part are you already of the app. Its confusing. Then it
+			doesnt show clearly the nm nm difference between the categories and the content. Because the color of the category of it is orange the same color with its content.
+			If you are new on it you wont know that the page has different sections.
+		</p>
+	</section>
+</main>
+</body>
+<footer class='btm-1'>
+	@2021 | Harvey Sagario | Philippines | BYU Online<br>
+		  <h6>Last update: <p id="time">Saturday September 25 2021 Mountain View 9:41pm</p></h6>
+	
+  </footer>  
+<style>
+html {
+	text-align:center;
+
+}
+body {
+	font-size: 16px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+	text-align:center;
+	max-width: 767px;
+	
+	
+}
+.top-1 {
+    background-color:rgb(183, 183, 226);
+    max-width:800px;
+    border-radius:25px;
+	text-align:bottom;
+    display:flex;
+   justify-content:center;
+   align-content:bottom;
+
+  }
+
+  .btm-1 {
+    text-align:center;
+    background-color:rgb(183, 183, 226);
+    font-size:25px;
+    border-radius:25px;
+  }
+/* phone or baseline views **************************/
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+main section h2 {
+	color: #536878;
+}
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+
+main section:nth-child(2) {
+	display: none;
+	margin: 0.5rem;
+}
+
+.colimage {
+	box-shadow: 0 0 30px #333;
+}
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main section:nth-child(2) {
+		display: block;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 2;
+	}
+
+	main section picture {
+		display: block;
+	}
+	main section picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 1;
+	}
+}
+
+
+</style>
+</html>
+
