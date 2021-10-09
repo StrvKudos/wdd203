@@ -1,0 +1,66 @@
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+nav {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,f4007e+100 */
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top,  #a90329 0%, #f4007e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a90329 0%,#f4007e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a90329 0%,#f4007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#f4007e',GradientType=0 ); /* IE6-9 */
+
+}  
+nav {
+    max-width: 767px;
+    margin: 0 auto;
+    font-family: Kanit, sans-serif, monospace;
+
+}
+main {
+    max-width: 767px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: green;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    font-family: Bitter, sans-serif, monospace;
+}
+.main1 {
+    text-align: center;
+    
+}
+nav button {
+    display:none;
+}
+nav ul.hide {
+    display:block;
+}
+nav ul {
+    margin-left:2%;
+}
+nav ul li {
+    float:left;
+}
+nav ul li a {
+    border:none;
+    border-right:1px solid rgba(0,0,0,0.3);
+    padding:.6rem .85rem;
+}
+footer {
+    background-color: #bed;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: Bitter, sans-serif, monospace;
+    max-width: 767px;
+    margin: 0 auto;
+    color: black;
+}
+.update {
+    margin-top:-20px;
+}
