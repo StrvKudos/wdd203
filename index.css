@@ -1,0 +1,27 @@
+body {
+  max-width:600px;
+  align-item:center;
+}
+.top-1 {
+  background-color:rgb(183, 183, 226);
+  max-width:800px;
+  text-align:center;
+
+  border-radius:25px;
+  display:flex;
+ justify-content:flex-end;
+}
+.img-1 {
+  padding:20px;
+}
+
+.btm-1 {
+  text-align:center;
+  background-color:rgb(183, 183, 226);
+  font-size:25px;
+  border-radius:25px;
+}
+html {
+  border-radius:10px;
+  
+}
