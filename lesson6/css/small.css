@@ -14,6 +14,7 @@ body {
 	padding: 0;
 	margin: 0;
 }
+
 .headings {
     display: flex;
     flex-direction:column;
@@ -40,7 +41,9 @@ main {
     padding: 0 20px 50px;
 
 }
-
+.logo{
+    display:block;
+}
 .m {
 	font-style: italic;
 	letter-spacing: 1pt;
@@ -114,14 +117,15 @@ p {
 }
 .sum {
     position: absolute;
-	top: 350px;
+	top: 325px;
 	right: 70px;
 	background: radial-gradient(#eee, #40ca1d);
 	border: 1px solid #000;
-	padding: 1.5rem;
 	box-shadow: 0 0 30px #333;
 	opacity: .9;
     text-align:left;
+
+  
 }
 .img1 {
     height: 300px;
