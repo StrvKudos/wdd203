@@ -3,10 +3,10 @@
         document.getElementById("sally").classList.toggle("hide");
    
  }
-const d = new Date();
-document.getElementById("demo").innerHTML = d;
+//const d = new Date();
+//document.getElementById("demo").innerHTML = d;
     
-funtion chill() {
-    let second = document.getElementById("");
-    let 
-}
+//funtion chill() {
+    //let second = document.getElementById("");
+    //let 
+//}
