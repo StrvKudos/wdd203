@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3" scope="colgroup" id="heads">ACME Wildwest</th>
+            </tr>
+            <tr>
+                <th scope="col">Period</th>
+                <th scope="col">Sales</th>
+                <th scope="col">Sales Goal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">August</td>
+                <td>3,590</td>
+                <td>3,590</td>
+            </tr>
+            <tr>
+                <td scope="row">September</td>
+                <td>4,420</td>
+                <td>4,420</td>
+
+            </tr>
+            <tr >
+                <td scope="row">October</td>
+                <td>4,8700</td>
+                <td>4,8700</td>
+
+            </tr>
+            <tr id="Nov">
+                <td scope="row">November</td>
+                <td>8,610</td>
+                <td class="color">8,610</td>
+            </tr>
+            <tr>
+                <td scope="row" class="friday">Black Friday</td>
+                <td colspan="2" scope="colgroup">8,610</td>
+              
+            </tr>
+            <tr>
+                <td scope="row">December</td>
+                <td>3200</td>
+                <td>3200</td>
+            </tr>
+            <tfoot>
+            <td colspan="3" scope="colgroup" id="foots">Compiled 11.6.2021 by Harvey Sagario</td>
+            </tfoot>
+        </tbody>
+        
+    </table>
+
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+        :root {
+	--back: hsla(150, 50%, 30%, 1);
+  --back2: hsla(150, 50%, 30%, .5);
+  --foredark: hsla(0,0%,10%,1);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsl(0,0%,20%);
+	--borderlight: hsl(0,0%,33%);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: var(--back);
+	font-size: .85rem;
+}
+
+tr:first-child th {
+	background-color: var(--back);
+	color: var(--forelight);
+    font-family: Ubuntu, 'sans-serif', 'Times New Roman';
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color:#628ca6;
+} 
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+#heads {
+    background-color:#7fb9c2;
+}
+#foots {
+    background-color:#7fb9c2;
+}
+.friday {
+    font-family: Ubuntu, 'sans-serif', 'Times New Roman';
+}
+.color {
+    background-color:#7fb9c2;;
+}
+    </style>
+
+
+
+
+</body>
+</html>
