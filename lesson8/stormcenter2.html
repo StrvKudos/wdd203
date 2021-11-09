@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+<link rel="icon" href="images/favicon.ico">
+<!-- This start file was build by Paul Cheney  -->
+<title>HTML5 Start Site by Paul Cheney</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalizes.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/smalls.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/mediums.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/larges.css" rel="stylesheet">
+
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+	<header>
+        
+        <img src="images/Weather2.png"  style="width:100px;height:100px;" alt="Weather logo">
+ <section class="headings"><h1>Weather News Company</h1>
+        <q class="m">Life is just a Weather!</q>
+    </header></section>
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="sally" class="hide">
+            <li class="one"><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Havent</a></li>   
+            <li><a href="#">Storm Center</a></li> 
+            <li><a href="#">Gallery</a></li>  
+        </ul>
+    </nav>
+    
+
+<!-- CONTENT HERE -->
+
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">Full Name*</label>
+                <input type="text" name="fname" required>
+                <label class="top">Email*</label>
+                <input type="text" placeholder="juan@gmail.com" name="email" required>
+                <label class="top">Phone Number</label>
+                <input type="text" placeholder="09XXXXXXXXX" name="phone">
+                <label class="top">Zipcode</label>
+                <input type="text" name="zipcode">
+            </fieldset>
+            <fieldset>
+                <legend>Storm Report</legend>
+                <label class="top">Date</label>
+                <input type="date" name="date" >
+                <label class="top" for="list">Storm type</label>
+                <input list="lists" id="list" name="list" />
+    
+                <datalist id="lists">
+                    <option value="Hurricane">
+                    <option value="Tornado">
+                    <option value="Flood">
+                    <option value="Earthquake">
+                    <option value="Vanilla">
+                </datalist>
+                <label class="top">Storm Severity</label>
+                <input type="range" name="fname">
+                <label class="top" for="list1">Storm region<select name="subject">
+                    <option value="Storm Region">Storm Region</option>
+                    <option value="Hurricane">Hurricane</option>
+                    <option value="Tornado">Tornado</option>
+                    <option value="Flood">Flood</option>
+                    <option value="Earthquake">Earthquake</option>
+                    <option value="Vanilla">Vanilla</option>
+                    </select>
+            </label>
+
+            <div class="sbs">User in Danger Lever</div><br>
+
+            <label class="sbs"><input type="radio" name="danger" value="Yes">Yes</label>
+            <label class="sbs"><input type="radio" name="danger" value="Maybe">Maybe</label>
+            <label class="sbs"><input type="radio" name="danger" value="No">No</label>
+            </fieldset>
+            <fieldset>
+
+                <legend>Additional Information or Comment</legend>
+                <textarea type="text" name="info"   rows="20" cols="100"></textarea>
+            </fieldset>
+            <input type="submit" Value="Report Wether Condition" class="submitBtn">
+            
+        </form>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        <p><h5> Fall @2021 | Harvey Sagario | Philippines | BYU Online</h5>
+		  <h6 class="update">Saturday October 19 2021 Mountain View 5:20pm</h6> <span id="currentdate()"></span>
+        <span id="demo"></span></p>
+        
+    </footer>
+    
+<script src="js/scripts.js"> </script>
+</body>
+</html>
