@@ -1,0 +1,38 @@
+
+header{ 
+    font-size:50px;
+    margin: 0 auto;
+    text-align:center;
+    background-color:rgb(171, 171, 221);
+    max-width:1200px;
+}
+
+div {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width:1200px;
+    margin:0 auto;
+    text-align:center;
+}
+
+footer p {
+    max-width:1200px;scroll-snap-align: ;
+    margin: 100px auto 0;
+    font-size:30px;
+    text-align:center;
+    background-color:rgb(171, 171, 221);
+    padding: 30px;
+}
+section {
+    width:300px;
+    line-height:2px;
+    color:green;
+    border-style: solid;
+    background-color:pink;
+    margin:100px 40px;
+    padding-bottom:50px;}
+
+img {
+    height:300px;
+    width:200px;
+}
