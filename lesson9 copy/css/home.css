@@ -4,7 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt&display=swap');
 @media only screen and (min-width: 1024px) {
-
+body {
+    max-width:1200px;
+}
 nav {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,f4007e+100 */
 background: #a90329; /* Old browsers */
@@ -97,7 +99,7 @@ footer {
     margin: 0 auto;
     color: black;
     font-family: Bitter, sans-serif, monospace;
-    margin-top:400px;
+    margin-top:100px;
     font-size:30px;
 
 }
@@ -106,7 +108,7 @@ footer {
 }
 .img3 {
     height:500px;
-    width:700px;
+    width:700px;s
     position:absolute;
     margin: -150px -300px;
 }
@@ -190,11 +192,14 @@ img {
     height:300px;
     width:250px;
     padding-top:20px;
+    
 
 }
+
 .info {
     margin-right:-800px;
 }
 h1 {
     font-size:60px;
+    text-align:center;
 }
