@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head><!--Titles and links-->
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather's a Bench</title>
+        <meta name="description" content="Weather website">
+        <script src="https://kit.fontawesome.com/4472a98fb0.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/noto-sans.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="icon" href="images/favicon.ico">
+    </head>
+    <body>
+        <header> <!--Main Header-->
+            <div id="banner">
+                <h1>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</h1>
+                <div>
+                    <a href="javascript:void(0);" class="close" onclick="exitBanner()">❌</a>
+                </div>
+
+            </div>
+            <div class="header">
+                <img class="header-logo" src="images/Weather2.png" alt="Website Logo">
+                    <div id=title-box>
+                        <h1 class="title">Weather's a Bench</h1>
+                        <h2 class="motto">Don't let it get you down</h2>
+                    </div>
+                
+            </div>
+        </header>
+<!--Navigator.-->
+        <nav>
+            <div class="burger icon">
+                <a href="javascript:void(0)" onclick="dropdownFunction()">☰</a>
+            </div>
+            <div class="navbar">
+                <ul class="nav-links">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="active" href="preston-10.html">Preston</a></li>
+                    <li class="nav-item"><a>Soda Springs</a></li>
+                    <li class="nav-item"><a>Fish Haven</a></li>
+                    <li class="nav-item"><a href="stormcenter.html">Storm Center</a></li>
+                    <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <!--Android view Dropdown-->
+            <div class="dropdown">
+                <ul id="dropdown-links">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="active" href="preston-10.html">Preston</a></li>
+                    <li class="nav-item"><a>Soda Springs</a></li>
+                    <li class="nav-item"><a>Fish Haven</a></li>
+                    <li class="nav-item"><a href="stormcenter.html">Storm Center</a></li>
+                    <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>            
+        </nav>
+
+        <!--Body Preston-->
+        <div class="content">
+        <main>
+            <div class="weather-summary">
+                <div id="hero-image">
+                    <h1>Preston Idaho</h1>
+                </div>
+                <div class="preston-background-image background-image">
+                     <!--<picture class="preston-img">
+                        <source media="(max-width:401px)" srcset="images/logo1.png">
+                        <source media="(max-width:1001px)" srcset="images/logo2.png">
+                        <source media="(max-width:1601px)" srcset="images/logo3.png">
+                        <img src="images/logo3.png" alt="picture" class="img1">
+                    </picture>-->
+                    <img>
+                    <!--Hero-->
+                    <div class="hero-text">
+                        <div id="overlay"></div>
+                        <h2>Weather Summary</h2>
+                        <div class="text-box-small">
+                            <h3 id="desc">Weather Description: </h3>
+                            <h3 id="temp">Current Temperature: </h3>
+                            <h3><span id="temp-low">High Temperature</span> | <span id="temp-high">Low Temperature</span></h3>
+                            <h3 id="wind">Wind Speed</h3>
+                            <h3 id="wind-chill">Wind Chill</h3>
+                            <h3 id="humidity">Humidity</h3>
+                            <h3 id="real-feel">Real Feel</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--FiveDays-->
+            <div class="five-day-forecast">
+                <h2 class="f-subhead">Five Day Forecast</h2>
+                    <div class="f-forecast days">
+                        <div class="day">
+                            <h3 class="five-day-name">Loading</h3>
+                            <img class="five-day-image" src="images/placeholder-image.png" width="100" height="150" alt="Image depicting weather">
+                            <span class="five-day-temp">Loading</span>
+                        </div>
+                        <div class="day">
+                            <h3 class="five-day-name">Loading</h3>
+                            <img class="five-day-image" src="images/placeholder-image.png" width="100" height="150" alt="Image depicting weather">
+                            <span class="five-day-temp">Loading</span>
+                        </div>
+                        <div class="day">
+                            <h3 class="five-day-name">Loading</h3>
+                            <img class="five-day-image" src="images/placeholder-image.png"  width="100" height="150" alt="Image depicting weather">
+                            <span class="five-day-temp">Loading</span>
+                        </div>
+                        <div class="day">
+                            <h3 class="five-day-name">Loading</h3>
+                            <img class="five-day-image" src="images/placeholder-image.png"  width="100" height="150" alt="Image depicting weather">
+                            <span class="five-day-temp">Loading</span>
+                        </div>
+                        <div class="day">
+                            <h3 class="five-day-name">Loading</h3>
+                            <img class="five-day-image" src="images/placeholder-image.png"  width="100" height="150" alt="Image depicting weather">
+                            <span class="five-day-temp">Loading</span>
+                        </div>
+                    </div>
+            </div>
+            <!--Article-->
+            <div class="article">
+                <h1>Article</h1>
+                <h2>Home Country: <br>Sometimes it’s just nice to go out there</h2>
+                <div class="article-text">
+                    <img id="article-img1" src="images/home.jpg" data-src="images/home.jpg" width="500" height="333" alt="Hometown">
+                    <img id="article-img2" src="images/home.jpg" data-src="images/home.jpg" width="500" height="333" alt="Hometown">
+                    <p>
+                        Old Jasper Blankenship went out to hunt deer the other day, the same way he’s done for decades now. Deer season has changed a lot for Jasper over the many years he’s been at it. As a kid, he couldn’t wait until he was old enough to get a license, because he wanted to bring a buck home to show his family. Not just any buck, either, but a big one.
+
+
+                        <br><br>
+                        As a young man, he wanted to see how many hunting seasons he could have in one year: duck, goose, quail, pheasant, deer, about anything that moved.”
+                        <br><br><a href="https://www.hjnews.com/preston/home-country-sometimes-it-s-just-nice-to-go-out-there/article_b378203a-0abc-5580-a86e-b20c6f2da6f0.html">www.hjnews.com</a>
+                    </p>
+                </div>
+            </div>
+            <!--Contact Information-->
+            <div class="contact-information">
+                <div class="ci-text">
+                    <h3 class="ci-head">Contact Information</h3>
+                    <h4 class="ci-p" id="ci-p1"><i class="fa fa-envelope"></i><a href="mailto:email@weathersabench.com">contact@weathersabench.com</a></h4>
+                    <h4 class="ci-p"><i class="fa fa-phone"></i><a href="tel:+639533129604">+639533129604</a></h4>
+                    <h4 class="ci-p" id="ci-loc"><i class="fa fa-map-marker"></i><a href="https://www.google.com/maps/place/55+E+1st+S,+Preston,+ID+83263/@42.094727,-111.874838,15z/data=!4m5!3m4!1s0x8754f7ea26e3c6e7:0x61e0703e64fb92f4!8m2!3d42.0947268!4d-111.8748376?hl=en">55 E 1st S, Preston, ID, 83221</a></h4>
+                    <div class="social">
+                        <a href="http://www.facebook.com"><img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=29&h=29" width="29" height="29" alt="facebook logo"></a>
+                        <a href="http://www.instagram.com"><img src="https://facebookbrand.com/wp-content/uploads/2021/03/glyph-logo_May2016.png?w=29" width="29" height="29" alt="instagram logo"></a>
+                        <a href="http://www.twitter.com"><img src="images/twitter.png" width="29" height="29" alt="twitter logo"></a>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <a href="https://www.google.com/maps/place/55+E+1st+S,+Preston,+ID+83263/@42.0931161,-111.87596,15.89z/data=!4m5!3m4!1s0x8754f7ea26e3c6e7:0x61e0703e64fb92f4!8m2!3d42.0947268!4d-111.8748376?hl=en"><img id="map" src="../lesson10/images/map.jpg" loading="lazy" alt="map" width=300 height=200></a>
+                </div>
+            </div>
+        </main>
+        <footer class="footer"> 
+            <p>&copy; <span id="year"></span> | Harvey Sagario| Idaho<br><a href="../index.html">Assignment Portal</a> | <a href="https://openweathermap.org/">Data From OpenWeather</a><br><span id="currentDate"></span> | <span id="lastVisit"></span></p>
+        </footer>
+        </div>
+        <script src="js/js.js"></script>
+        <script src="js/preston-weatherapi.js"></script>
+        <script src="js/banner.js"></script>
+        <script src="js/dropdown.js"></script>
+        <script src="js/lastVisit.js"></script>
+        <script src="js/lazy-load.js"></script>
+    </body>
+</html>
