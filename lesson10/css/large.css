@@ -129,6 +129,7 @@
         font-size: 2em;
     }
     /*Article*/
+
     .article-text{
         display: block;
         text-align: left;
@@ -235,4 +236,9 @@
     .local-events h3{
         color: white;
     }
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
 }
