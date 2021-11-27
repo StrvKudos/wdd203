@@ -4,24 +4,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt&display=swap');
 @media only screen and (min-width: 1024px) {
+/*Header*/
 body {
     max-width:1200px;
 }
 nav {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,f4007e+100 */
-background: #a90329; /* Old browsers */
-background: -moz-linear-gradient(top,  #a90329 0%, #f4007e 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #a90329 0%,#f4007e 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #a90329 0%,#f4007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#f4007e',GradientType=0 ); /* IE6-9 */
+
+background: #383234; 
+background: -moz-linear-gradient(top,  #a90329 0%, #f4007e 100%); /
+background: -webkit-linear-gradient(top,  #a90329 0%,#f4007e 100%); 
+background: linear-gradient(to bottom,  #a90329 0%,#f4007e 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#f4007e',GradientType=0 );
 
 } 
+/* Head*/
 header {
     max-width:1200px;
 }
+
 .img2 {
     height: 100px;
     width: 100px;
+    margin: center;
+}
+.heading {
+    background-color:white;
+
 }
 .sum {
     position: absolute;
@@ -188,12 +196,6 @@ section {
     margin:100px 40px;
     padding: 20px 20px;
 }
-img {
-    height:300px;
-    width:250px;
-    padding-top:20px;
-    
-
 }
 
 .info {

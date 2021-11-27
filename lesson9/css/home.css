@@ -5,21 +5,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt&display=swap');
 @media only screen and (min-width: 1024px) {
 
-nav {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,f4007e+100 */
-background: #a90329; /* Old browsers */
-background: -moz-linear-gradient(top,  #a90329 0%, #f4007e 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #a90329 0%,#f4007e 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #a90329 0%,#f4007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#f4007e',GradientType=0 ); /* IE6-9 */
-
-} 
+/* HEADER*/
 header {
-    max-width:1200px;
+    margin: 0px auto;
 }
-.img2 {
+.headimg 
+{
     height: 100px;
     width: 100px;
+    margin-bottom:-180px
+}
+.title{
+    margin:100px 0px 0px 100px;
+    font-size:50px;
+}
+.heading{
+    margin:-5px 0px;
+}
+.quote {
+    margin:-20px 0px 20px -200px;
+
+}
+
+/* NAVIGATION */
+
+nav {
+    background-color: #00ff4c;
+    font-family: Kanit, sans-serif, monospace;
+    padding:2px 20px 1px 20px;
+    color:black;
+
+}
+
+nav button {
+    display:none;
+}
+nav ul.hide {
+    display:block;
+}
+nav ul {
+ margin-left:2%;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:2px 20px 1px 0px;
+   
+    
+}
+nav ul li a {
+    border:none;
+    font-size:30px;
+    padding:2px 20px 1px 0px;
+    color:black;
+
+}
+nav ul li a:hover { background-color: gray;
+  padding:2px 20px 1px 0px;
+}
+/* MAIN1 */
+h1 {
+    font-size:60px;
+    font-family: Bitter, sans-serif, monospace;
+    text-shadow:2px 2px #00ff4c;
+    margin-top:0px;
+}
+.main1 {
+    text-align: center;
+    margin: 0px auto;
+    position:relative;
+    
+}
+.img1 {
+    height: 500px;
+    width: 1000px;
+    margin-bottom:100px;
+}
+
+/* Main */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px 0px 50px 0px;
+    font-family: Bitter, sans-serif, monospace;
+    background-color: #fff;
 }
 .sum {
     position: absolute;
@@ -30,62 +102,41 @@ header {
 	padding: 1.5rem;
 	box-shadow: 0 0 30px #333;
 	opacity: .9;
-    text-align:left;
+    
 }
-.img1 {
-    height: 500px;
-    width: 1000px;
-    margin-bottom:50px;
+/* MAIN3 */
+.main3 {
+background-color:gray;
+width:1200px;
+height: 550px;
+margin-left:-50px;
+margin-top:-50px;
 }
+section {
+    width:300px;
+    background-color:pink;
+    margin:-180px 25px ; 
+    padding: 20px 20px;
+}
+
+
+
 .img2 {
     height: 200px;
     width: 100px;
   
 
 }
-nav {
-    max-width: 1200px;
-    margin: 0 auto;
-    font-family: Kanit, sans-serif, monospace;
 
+/* CONTACT INFO */
+.main4 {
+    margin-top:100px;
 }
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    border-style: solid;
-    border-color: green;
-    text-align: center;
-    padding: 50px 0 50px 0;
-    font-family: Bitter, sans-serif, monospace;
+.info {
+    margin-left:900px;
+    width:300px;
 }
-.main1 {
-    text-align: center;
-    margin: 800px auto;
-    position: relative;
-    margin-top:50px;
-    
-}
-nav button {
-    display:none;
-}
-nav ul.hide {
-    display:block;
-}
-nav ul {
-    margin-left:2%;
-}
-nav ul li {
-    float:left;
-}
-nav ul li a {
-    display: block;
-    text:center;
-    border:none;
-    border-right:1px solid rgba(0,0,0,0.3);
-    padding:.9rem 2rem  ;
-    font-size:30px;
-}
-}
+
 footer {
     background-color: #bed;
     display: flex;
@@ -108,7 +159,7 @@ footer {
     height:500px;
     width:700px;
     position:absolute;
-    margin: -150px -300px;
+    margin: -150px -100px;
 }
 .grid-col{
     margin-right:600px;
@@ -180,21 +231,11 @@ div {
     text-align:center;
 }
 
-section {
-    width:300px;
-    background-color:pink;
-    margin:100px 40px;
-    padding: 20px 20px;
-}
+
 img {
     height:300px;
     width:250px;
     padding-top:20px;
 
 }
-.info {
-    margin-right:-800px;
-}
-h1 {
-    font-size:60px;
-}
+

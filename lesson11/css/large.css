@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt&display=swap');
+
+@media screen and (min-width: 1025px){
+
+/*Header*/
+    header {
+        max-width:1200px;
+        margin: 0 auto;
+    }
+    body{
+        font-size: 20px; 
+        
+
+    }
+    .content{
+        margin: 0 auto;
+        min-width: 1025px;
+        max-width: 1200px;
+    }
+    .header-logo{
+        z-index: 0;
+        width: auto;
+        max-width: none;
+        top: 0px;
+        right: 380px;
+        width:80px;
+        height:80px;
+    }
+    .motto{
+        width:100%;
+        text-align: left;
+        opacity: 76%;
+    }
+    .burger{
+        display:none;
+    }
+    .dropdown{
+        display:none;
+    }
+    /*Navigator*/
+    .navbar{
+        display:flex;
+        background-color:red;
+        width: 100%;
+        margin: 0 auto;
+        max-width:1200px; 
+          
+       
+    }
+    .nav-links{
+        flex-direction: row;
+        display:flex;
+        flex: auto;
+        align-items: stretch;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    }
+    a:hover{
+        background-color:yellow;
+    }
+
+    /*Body Prestion*/
+    /*Hero*/
+    .hero-text{
+        font-size: .6em;
+        display:relative;
+        width: fit-content;
+        background-color:Green;
+        opacity: 85%;
+        box-shadow: 1px 2px 4px 1px white;
+        
+    }
+    .hero-text h3{
+        color: white;
+    }
+    .hero-text:hover, .local-events:hover{
+        box-shadow: 2px 3px 5px 1px white;
+        opacity: 100%;
+    }
+    .hero-text h2{
+        margin: 0;
+        background-color:white;
+    }
+    .img1 {
+        margin-bottom:500px;
+        display:absolute;
+    }
+    #for-smalls{
+        display: none;
+    }
+    .towns section:last-child{
+        margin-bottom: 0;
+    }
+    .background-image{
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: bottom;
+        padding: 30px;
+        max-width: 900px;
+        height: 300px;
+        text-align: left;
+    }
+    .preston-background-image{
+        background-image: url("../images/logo3.png"); 
+    }
+    .sodasprings-background-image{
+        background-image: url("../images/sodasprings-hero-image.jpg");
+    }
+    .fishhaven-background-image{
+        background-image: url("../images/fishhaven-hero-image.jpg")
+    }
+    #small-overlay, #medium-overlay{
+        display: none;
+    }
+    figure:hover{
+        box-shadow: 1px 2px 6px 1px #2C2F2D;
+    }
+    /* Five Days*/
+
+    .five-day-forecast {
+        background-color: gray;
+    }
+    #large-overlay{
+        display: block;
+        float: right;
+        color: green;
+        margin-right: 25px;
+        margin-top: 25px;
+        font-size: 2em;
+    }
+    /*Article*/
+
+    .article-text{
+        display: block;
+        text-align: left;
+    }
+    .map-container{
+        padding-left: 25%;
+        padding-top: 50px;
+    }
+    #article-img1{
+        display: block;
+        float: right;
+        width:25%;
+        height: 100%;
+        max-width: 250px;
+    }
+    #article-img2{
+        display:none;
+    }
+    .contact-information{
+        grid-template-columns: 1fr 1fr;
+    }
+    .social{
+        justify-content: space-between;
+    }
+    .ci-text{
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    .map-container{
+        grid-column: 1/2;
+        grid-row:1/3;
+    }
+    #weather-gallery{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /*Storm Center*/
+    form{
+        width: 100%;
+    }
+    #submit-storm{
+        width: 300px;
+    }
+    .towns{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 15px;
+    }
+    .towns section:first-child{
+        grid-column:1/1;
+    }
+    .towns section:nth-child(2){
+        grid-column:2/2;
+    }
+    .towns section:nth-child(3){
+        grid-column:3/3;
+    }
+    .towns section{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .towns section:nth-child(even){
+        padding: 0;
+    }
+    .towns section:nth-child(odd){
+        padding: 0;
+    }
+    .towns img{
+        padding: 15px;
+    }
+    .home-hero{
+        background:url("../images/home-hero-image.jpeg") no-repeat;
+        background-size: 100%;
+        width: 97%;
+        height: 300px;
+        aspect-ratio: 500/333;
+        background-size: cover;
+        background-position: center;
+        margin: 0 auto;
+        box-shadow: 0 2px 5px #2C2F2D;
+    }
+    .home-hero:hover{
+        box-shadow:1px 2px 5px 1px#2C2F2D;
+    }
+    .home-hero img{
+        display: none;
+    }
+    .local-events{
+        font-size: 10px;
+        width: fit-content;
+        position: absolute;
+        background-color:#05569d;
+        box-shadow: 0 1px 4px 1px white;
+        opacity: 85%;
+        right: 0;
+        left: 664px;
+        top: 260px;
+    }
+    .local-events h2{
+        margin:0 auto;
+        background-color:white;
+    }
+    .local-events h3{
+        color: white;
+    }
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+}

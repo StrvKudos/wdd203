@@ -28,7 +28,7 @@ const dayNames = [
      "December"
  ];
 
- const todaysdate = new Date("2015-03-07");
+ const todaysdate = new Date();
  const dayName = dayNames [todaysdate.getDay()];
  const monthName = months [todaysdate.getMonth()];
  const currentdate = dayName + "," + todaysdate.getDate() + " " + monthName + "," + todaysdate.getFullYear();

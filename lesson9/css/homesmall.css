@@ -6,7 +6,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 border: none;
 border-radius:5px;}
 header {
-    max-width: 767px;
     margin: auto;
 }
 body {
@@ -20,10 +19,7 @@ body {
     flex-direction:column;
     font-family: Lobster, sans-serif, 'Times New Roman';
 }
-.headings h1 {
-    font-size: 50px;
-	margin: 0 0 0 17px;
-}
+
 main {
     max-width: 767px;
     margin: 0 auto;
@@ -88,8 +84,9 @@ nav ul li a{
 nav ul li .one {
     background-color:pink; color:black;
 }
-nav ul li a:hover { background-color: green;
+nav ul li a:hover { background-color: rgb(77, 240, 77)7, 240, 77);
 }
+
 nav ul.hide{display:none;}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
@@ -130,7 +127,6 @@ p {
 }
 .img1 {
     height: 300px;
-    width: 500px;
 }
 .grid { 
 	display: grid;
@@ -155,13 +151,7 @@ p {
     width: 400px;
 
 }
-.image3 {
-        padding:20px;
-        height:500px;
-        width:700px;
-        margin: 0px -500px;
-        position:absolute; 
-}
+
 .grid-col:hover {
     background-color:blue;
 }
