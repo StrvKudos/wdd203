@@ -1,0 +1,244 @@
+/* Desktop Views ****************************/
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt&display=swap');
+@media only screen and (min-width: 1024px) {
+
+/* HEADER*/
+header {
+    margin: 0px auto;
+}
+.headimg 
+{
+    height: 100px;
+    width: 100px;
+    margin-bottom:-180px
+}
+.title{
+    margin:100px 0px 0px 100px;
+    font-size:50px;
+}
+.heading{
+    margin:-5px 0px;
+}
+.quote {
+    margin:-20px 0px 20px -200px;
+
+}
+
+/* NAVIGATION */
+
+nav {
+    background-color: #00ff4c;
+    font-family: Kanit, sans-serif, monospace;
+    padding:2px 20px 1px 20px;
+    color:black;
+
+}
+
+nav button {
+    display:none;
+}
+nav ul.hide {
+    display:block;
+}
+nav ul {
+ margin-left:2%;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:2px 20px 1px 0px;
+   
+    
+}
+nav ul li a {
+    border:none;
+    font-size:30px;
+    padding:2px 20px 1px 0px;
+    color:black;
+
+}
+nav ul li a:hover { background-color: gray;
+  padding:2px 20px 1px 0px;
+}
+/* PRESTON IDAHO */
+h1 {
+    font-size:60px;
+    font-family: Bitter, sans-serif, monospace;
+    text-shadow:2px 2px #00ff4c;
+    margin-top:0px;
+}
+.main1 {
+    text-align: center;
+    margin: 0px auto;
+    position:relative;
+    
+}
+.img1 {
+    height: 500px;
+    width: 1000px;
+    margin-bottom:100px;
+}
+
+/* CARDS */
+.main3 {
+background-color:gray;
+width:1200px;
+height: 550px;
+margin-left:-50px;
+margin-top:-50px;
+}
+section {
+    width:300px;
+    background-color:pink;
+    margin:-180px 25px ; 
+    padding: 20px 20px;
+}
+
+
+
+.img2 {
+    height: 200px;
+    width: 100px;
+  
+
+}
+
+/* CONTACT INFO */
+.main4 {
+    margin-top:100px;
+}
+.info {
+    margin-left:800px;
+   
+}
+.img3 {
+    height:500px;
+    width:700px;
+    position:absolute;
+    margin: -200px -500px;
+}
+/* FOOTER */
+footer {
+    padding:.2rem 0px .1px 0px;
+    margin-right:-50px;
+    margin-left:-50px;
+    background-color: #bed;
+    color: black;
+    font-family: Bitter, sans-serif, monospace;
+    margin-top:300px;
+    margin-bottom:-98px;
+    font-size:50px;
+    line-height: 0px;
+
+}
+h5 {
+    margin-buttom:5px;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px 0px 50px 0px;
+    font-family: Bitter, sans-serif, monospace;
+    background-color: #fff;
+}
+.update{
+    margin-top:0px;
+}
+
+.sum {
+    position: absolute;
+	top: 150px;
+	right: 80px;
+	background: radial-gradient(#eee, #40ca1d);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: .9;
+    
+}
+#date {
+    margin-right:-500px;
+}
+
+.grid-col{
+    margin-right:600px;
+    margin-left:50px
+}
+.grid-col:hover {
+    background-color:blue;
+    border-style:dotted;
+    border-color:yellow;
+}
+
+form fieldset {
+    border:1px solid black;
+    margin:0 auto;
+    padding: .5rem 2%;
+    border-radius:10px;}
+form legend {
+    font-size:40px;
+    display:block;
+    padding: 5px 5px ;
+    margin: 5px 5px;
+
+}
+form label.top {
+    display:block;
+    
+    
+}
+form label.top input {
+
+}
+input, form label.top select {
+    display:block;
+    font-size:1rem;
+    padding:.75rem .5rem;
+    max-width:20rem;
+    width:100%;
+}
+form fieldset label.sbs input {
+    display:block;
+    
+}
+form input.submitBtn{
+    margin:1rem auto;
+    
+}
+
+form label.top-input:required {
+
+}
+
+form label.top-input:required:valid {
+
+}
+select {
+    display:block;
+}
+div {
+    margin:20px 0 0 5px;
+    display:block;
+}
+
+div {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width:1200px;
+    margin:0 auto;
+    text-align:center;
+}
+
+
+img {
+    height:300px;
+    width:250px;
+    padding-top:20px;
+
+}
+

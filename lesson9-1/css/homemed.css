@@ -1,8 +1,10 @@
-/* Tablet Views ******************************/
-@media only screen and (min-width: 732px) {
+
     @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+    /* Tablet Views ******************************/
+@media screen and (min-width: 600px) and (max-width: 1024px) {
     nav {
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,f4007e+100 */
     background: #a90329; /* Old browsers */
@@ -88,7 +90,6 @@
         border-right:1px solid rgba(0,0,0,0.3);
         padding:.6rem 18px;
         font-size:30px;
-}
     }
     footer {
         background-color: #bed;
@@ -102,8 +103,7 @@
         margin: 0 auto;
         color: black;
         font-size:30px;
-}
-    }
+     }
     .update {
         margin-top:-20px;
     }
@@ -114,4 +114,4 @@
         width:80px;
         margin-right:-20px;
     }
-  
+}
