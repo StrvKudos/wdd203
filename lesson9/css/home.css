@@ -3,29 +3,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt&display=swap');
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1050px) {
 
 /* HEADER*/
+
+body {
+	background-color: #bbb;
+	padding: 0;
+	margin: 0;
+}
+
 header {
     margin: 0px auto;
+    background-color: #fff;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
 }
 .headimg 
 {
     height: 100px;
-    width: 100px;
-    margin-bottom:-180px
 }
 .title{
-    margin:100px 0px 0px 100px;
+    margin:20px 0px 0px 100px;
     font-size:50px;
+}
+.headings {
+    display: flex;
+    
 }
 .heading{
     margin:-5px 0px;
+    flex-direction:column;
+    font-family: Lobster, sans-serif, 'Times New Roman';
 }
-.quote {
-    margin:-20px 0px 20px -200px;
 
-}
 
 /* NAVIGATION */
 
@@ -45,12 +58,13 @@ nav ul.hide {
 }
 nav ul {
  margin-left:2%;
+ list-style-type:none;
 }
 .nav-links{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding:2px 20px 1px 0px;
+    padding:2px 20px 1px 2px;
    
     
 }
@@ -61,7 +75,7 @@ nav ul li a {
     color:black;
 
 }
-nav ul li a:hover { background-color: gray;
+nav ul li a:hover { background-color.: gray;
   padding:2px 20px 1px 0px;
 }
 /* PRESTON IDAHO */
@@ -70,6 +84,10 @@ h1 {
     font-family: Bitter, sans-serif, monospace;
     text-shadow:2px 2px #00ff4c;
     margin-top:0px;
+}
+p {
+    margin: 0;
+    padding:0;
 }
 .main1 {
     text-align: center;
@@ -88,17 +106,15 @@ h1 {
 background-color:gray;
 width:1200px;
 height: 550px;
-margin-left:-50px;
+margin-left:-0px;
 margin-top:-50px;
 }
 section {
     width:300px;
     background-color:pink;
-    margin:-180px 25px ; 
+    margin:-180px 50px ; 
     padding: 20px 20px;
 }
-
-
 
 .img2 {
     height: 200px;
@@ -109,7 +125,7 @@ section {
 
 /* CONTACT INFO */
 .main4 {
-    margin-top:100px;
+    margin-top:50px;
 }
 .info {
     margin-left:800px;
@@ -119,24 +135,21 @@ section {
     height:500px;
     width:700px;
     position:absolute;
-    margin: -200px -500px;
+    margin: -300px -500px;
 }
 /* FOOTER */
 footer {
-    padding:.2rem 0px .1px 0px;
-    margin-right:-50px;
-    margin-left:-50px;
     background-color: #bed;
     color: black;
     font-family: Bitter, sans-serif, monospace;
     margin-top:300px;
-    margin-bottom:-98px;
     font-size:50px;
-    line-height: 0px;
+    margin-bottom:-90px;
+    line-height: 50px;
 
 }
 h5 {
-    margin-buttom:5px;
+    margin-bottom:5px;
 }
 main {
     max-width: 1200px;
@@ -234,11 +247,4 @@ div {
     text-align:center;
 }
 
-
-img {
-    height:300px;
-    width:250px;
-    padding-top:20px;
-
-}
 

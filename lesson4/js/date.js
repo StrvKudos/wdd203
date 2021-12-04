@@ -1,44 +1,36 @@
 
-    let daynames = [
-        "Sunday",
-        "Monday",
-        "Tuesday", 
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-        
-    ]; 
-    
-     
-    let buwan = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December"
-    ];
 
-    let d = new Date();
-    let dayName = daynames [d.getDay()];
-    let monthName = buwan [d.getMonth()];
-    let fulldate = dayName + "," + monthName + " " + d.getDate() + d.getFullYear();
-    
-    document.getElementById("currentdate").textContent= fulldate;
 
-    try {
-        let options = {
-            weekdays: "short",
-            day: "numeric",
-            month: "long",
-            year:"numeric",
-        }
-        document.getElementById("currentdate2").textContent = new Date[].toLocaleDateString("en-US", options);
-    }
+const dayNames = [
+    "Sunday",
+    "Monday",
+    "Tuesday", 
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+    
+]; 
+
+ 
+const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+];
+
+const todaysdate = new Date();
+const dayName = dayNames [todaysdate.getDay()];
+const monthName = months [todaysdate.getMonth()];
+const currentdate = dayName + "," + todaysdate.getDate() + " " + monthName + "," + todaysdate.getFullYear();
+
+document.getElementById("time").innerHTML = todaysdate;

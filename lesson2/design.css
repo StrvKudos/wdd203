@@ -5,36 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt&display=swap');
 
 
-html {
-	text-align:center;
-
-}
-body {
-	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
-	text-align:center;
-	max-width:1000px;
-	
-	
-}
-h1 {
-	font-size: 50px;
-}
-img {
-	padding: 20px; ;
-	border-radius:25px;
-	margin-left:50px;
-  }
-.top-1 {
-	background-color:rgb(183, 183, 226);
-	max-width:1000px;
-	text-align:center;
-	font-family: Lobster, sans-serif, 'Times New Roman';
-	border-radius:25px;
-	display:flex;
-   justify-content:flex-end;
-  }
-
   .btm-1 {
     text-align:center;
     background-color:rgb(183, 183, 226);
@@ -47,6 +17,15 @@ main {
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
+	font-size: 16px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+	text-align:center;
+	max-width:1000px;
+	
+}
+.img1 {
+	padding-top:20px;
+
 }
 
 main section h2 {
@@ -68,13 +47,49 @@ main section:nth-child(2) {
 .colimage {
 	box-shadow: 0 0 30px #333;
 }
-footer {
+
+/*header*/
+  html {
+	max-width:1200px;
+	background-color:gray;
+	margin: 0px auto;
+  }
+  body {
+	max-width:900px;
+	margin: 0px 0px;
+	background-color:rgba(122, 206, 202, 0.973);
+	border-radius: 10px;
+  }
+  header {
+	background-color:rgb(183, 183, 226);
+	max-width:1000px;
+	font-family: Lobster, sans-serif, 'Times New Roman';
+	display:flex;
+	flex:left;
+	padding: 0px 10px;
+	border-style: solid;
+	border-radius: 10px;
+
+  }
+
+  h1 {
+	font-size:50px;
+  }
+  .text{
+	font-size:30px;
+  }
+
+  footer {
 	text-align:center;
 	background-color:rgb(183, 183, 226);
 	font-family: Bitter, sans-serif, monospace;
-	
+	border-style: solid;
+	border-radius: 10px;
   }
+  
 
+
+  
 
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
@@ -109,5 +124,11 @@ footer {
 	main section:nth-child(3) {
 		grid-column: span 1;
 	}
+
+.img1{
+	padding-left:150px;
+	padding-top:20px;
 }
+}
+
 

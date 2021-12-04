@@ -20,6 +20,7 @@
         margin: 0 auto;
         color: black;
         font-size:50px;
+        
     }
     footer {
         background-color: #bed;
@@ -32,6 +33,7 @@
         max-width: 767px;
         margin: 0 auto;
         color: black;
+        text-align: center;
     }
     
     nav {
