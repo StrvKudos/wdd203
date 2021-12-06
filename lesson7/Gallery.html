@@ -15,7 +15,7 @@
 
 
 <!-- STYLE SHEETS -->
-<link href="css/normalizes.css" rel="stylesheet">
+<link href="css/normalize.css" rel="stylesheet">
 <!-- phone-default -->
 <link href="css/smalls.css" rel="stylesheet">
 <!-- enhance-tablet -->
@@ -31,130 +31,129 @@
 	<header>
         
         <img src="images/Weather2.png"  style="width:100px;height:100px;" alt="Weather logo">
- <section class="headings"><h1>Weather News Company</h1>
-        <q class="m">Life is just a Weather!</q>
+ <section class="headings"><h1>Weather News Company <p>Life is just a Weather!</p></h1>
+        
     </header></section>
     
     
 <!-- NAVIGATION HERE -->
 <nav class="clearfix">
     <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="sally" class="hide">
-            <li class="one"><a href="../lesson9/home.html"Home</a></li>
-            <li><a href="../lesson10/preston-10.html">Preston</a></li>
-            <li><a href="../lesson9/home.html">Soda Springs</a></li>
-            <li><a href="../lesson6/Preston-6.html">Fish Havent</a></li>   
-            <li><a href="../lesson8/stormcenter2.html">Storm Center</a></li> 
-            <li><a href="../lesson7/Gallery.html">Gallery</a></li>  
+        <ul id="sally" class="nav-links">
+            <li class="nav-items"><a href="../lesson9/home.html">Home</a></li>
+            <li class="nav-items"><a href="../lesson10/preston-10.html">Preston</a></li>
+            <li class="nav-items"><a href="../lesson9-1/home.html">Soda Springs</a></li>
+            <li class="nav-items"><a href="../lesson6/Preston-6.html">Fish Havent</a></li>   
+            <li class="nav-items"><a href="../lesson8/stormcenter2.html">Storm Center</a></li> 
+            <li class="nav-items"><a href="../lesson7/Gallery.html">Gallery</a></li>  
         </ul>
     </nav>
     
     
-<!-- CONTENT HERE -->
+<!-- LAZYLOAD-->
 
-    <main class="main1">
-        <h1>Weathers</h1>
-<div class="grid">
-	<div class="grid-col">
-		<picture class="logo">
-            <source media="(max-width:732px)" srcset="images/calm1.png">
-            <source media="(max-width:1022px)" srcset="images/calm2.png">
-            <source media="(max-width:1601px)" srcset="images/calm3.png">
-            <img src="images/calm3.png" alt="picture">
+<main>
+    <h2 class="page-title">Weather Gallery</h2>
+    <section class="gallery">
+
+      <figure class="gallery-image">
+        <picture>
+          <img src="../lesson7/images/placeholder-image.png" data-src="../lesson7/images/calm3.png"
+            alt="Snow cover pine trees">
+        </picture> 
+        <figcaption class="gallery-cap">Calm</figcaption>
+      </figure>
+
+      <figure class="gallery-image">
+        <picture>
+          <img src="../lesson7/images/placeholder-image.png" data-src="../lesson7/images/cloud3.png" alt="Lighting">
         </picture>
-	</div>
-	<div class="grid-col">
-		<picture class="logo">
-            <source media="(max-width:732px)" srcset="images/winter1.png">
-            <source media="(max-width:1022px" srcset="images/winter2.png">
-            <source media="(max-width:1601px)" srcset="images/winter3.png">
-            <img src="images/winter3.png" alt="picture">
+        <figcaption class="gallery-cap">Cloudy</figcaption>
+      </figure>
+
+      <figure class="gallery-image">
+        <picture>
+          <img src="../lesson7/images/placeholder-image.png" data-src="../lesson7/images/rain3.png" alt="Ray of sun">
+        </picture> 
+        <figcaption class="gallery-cap">Rain</figcaption>
+      </figure>
+
+      <figure class="gallery-image">
+        <picture>
+          <img src="../lesson7/images/placeholder-image.png" data-src="../lesson7/images/rainbow3.png"
+            alt="Rainbow over valley">
         </picture>
-	</div>
-	<div class="grid-col">
-		<picture class="logo">
-            <source media="(max-width:732px)" srcset="images/rainbow1.png">
-            <source media="(max-width:1022px)" srcset="images/rainbow2.png">
-            <source media="(max-width:1601px)" srcset="images/rainbow3.png">
-            <img src="images/rainbow3.png" alt="picture">
+        <figcaption class="gallery-cap">Rainbow</figcaption>
+      </figure>
+
+      <figure class="gallery-image">
+        <picture>
+          <img src="../lesson7/images/placeholder-image.png" data-src="../lesson7/images/snowy3.png"
+            alt="Cloudy Fall day">
         </picture>
-	</div>
-    </main>
-    <main class="main1">
-<div class="grid">
-	<div class="grid-col">
-		<picture class="logo">
-            <source media="(max-width:732px)" srcset="images/calm1.png">
-            <source media="(max-width:1022px)" srcset="images/calm2.png">
-            <source media="(max-width:1601px)" srcset="images/calm3.png">
-            <img src="images/calm3.png" alt="picture">
+        <figcaption class="gallery-cap">Snow</figcaption>
+      </figure>
+
+      <figure class="gallery-image">
+        <picture>
+          <img src="../lesson7/images/placeholder-image.png" data-src="../lesson7/images/spring3.png" alt="Fall leafs">
         </picture>
-	</div>
-	<div class="grid-col">
-		<picture class="logo">
-            <source media="(max-width:732px)" srcset="images/cloud1.png">
-            <source media="(max-width:1022px)" srcset="images/cloud2.png">
-            <source media="(max-width:1601px)" srcset="images/cloud3.png">
-            <img src="images/cloud3.png" alt="picture">
+        <figcaption class="gallery-cap">Spring</figcaption>
+      </figure>
+
+      <figure class="gallery-image">
+        <picture>
+          <img src="../lesson7/images/placeholder-image.png" data-src="../lesson7/images/thunder3.png"
+            alt="Beach Sunset">
         </picture>
-	</div>
-	<div class="grid-col">
-		<picture class="logo">
-            <source media="(max-width:732px)" srcset="images/rain1.png">
-            <source media="(max-width:1022px)" srcset="images/rain2.png">
-            <source media="(max-width:1601px)" srcset="images/rain3.png">
-            <img src="images/rain3.png" alt="picture">
+        <figcaption class="gallery-cap">Thunder</figcaption>
+      </figure>
+
+      <figure class="gallery-image">
+        <picture>
+          <img src="../lesson7/images/placeholder-image.png" data-src="../lesson7/images/winter3.png"
+            alt="Green Valley">
         </picture>
-	</div>
-    </main>
-    <main class="main1">
-<div class="grid">
-	<div class="grid-col">
-		<picture class="logo">
-            <source media="(max-width:732px)" srcset="images/snowy1.png">
-            <source media="(max-width:1022px)" srcset="images/snowy2.png">
-            <source media="(max-width:1601px)" srcset="images/snowy3.png">
-            <img src="images/snowy3.png" alt="picture">
+        <figcaption class="gallery-cap">Winter</figcaption>
+      </figure>
+
+      <figure class="gallery-image">
+        <picture>
+          <img src="../lesson7/images/placeholder-image.png" data-src="../lesson7/images/rain3.png"
+            alt="Leaves on sidewalk">
         </picture>
-	</div>
-	<div class="grid-col">
-		<picture class="logo">
-            <source media="(max-width:732px)" srcset="images/spring1.png">
-            <source media="(max-width:1022px)" srcset="images/spring2.png">
-            <source media="(max-width:1601px)" srcset="images/spring3.png">
-            <img src="images/spring3.png" alt="picture">
-        </picture>
-	</div>
-	<div class="grid-col">
-		<picture class="logo">
-            <source media="(max-width:732px)" srcset="images/thunder1.png">
-            <source media="(max-width:1022px)" srcset="images/thunder2.png">
-            <source media="(max-width:1601px)" srcset="images/thunder3.png">
-            <img src="images/thunder3.png" alt="picture">
-        </picture>
-	</div>
-    </main>
+        <figcaption class="gallery-cap">Rain</figcaption>
+      </figure>
+
+    </section>
+  </main>
+
    
-    <main class="main4"> 
-        <h1>Contact Infomation</h1>
-        <img src="images/map.jpg" alt="map" class="image3" >
-        <div class='info'>
-      <h2>Contact Us</h2>
-     <p >09533129604<br>
-     Manila Philippines<br>
-     hveysag@gmail.com<br><br></p>
-     <p><a href="https://www.facebook.com/"><img src="images/fb.png" alt="facebook" class="img-foot"></a>
-     <a href="https://www.instagram.com/"><img src="images/87390.png" alt="facebook" class="img-foot"></a>
-     <a href="https://twitter.com/"><img src="images/225132.png" alt="facebook" class="img-foot" ></a></p></div>
-      </main><br>
-<!-- FOOTER HERE -->   
-    <footer>
-        <p><h5> Fall @2021 | Harvey Sagario | Philippines | BYU Online</h5>
-		  <h6 class="update">Saturday October 19 2021 Mountain View 5:20pm</h6> <span id="currentdate()"></span>
-        <span id="demo"></span></p>
+ <!-- CONTACT US-->
+<main class="main4"> 
+    <h1 class="contact">Contact Infomation</h1>
+    <div class='info'>
         
-    </footer>
-    
+  <p><strong style="font-size:40px;">ContactUs </strong><br>
+ 09533129604<br>
+ Manila Philippines<br>
+hvsag@gmail.com<br>
+ <a href="https://www.facebook.com/"><img src="images/fb.png" alt="facebook" style="width:50px;height:50px;" class="contactimg"></a>
+ <a href="https://www.instagram.com/"><img src="images/87390.png" alt="facebook" style="width:50px;height:50px;" class="contactimg"></a>
+ <a href="https://twitter.com/"><img src="images/225132.png" alt="facebook" style="width:50px;height:50px;" class="contactimg"></a></p></div>
+ <img src="images/map.jpg" alt="map" class="img3">
+  </main><br>
+
+</body>
+<!-- FOOTER HERE -->   
+<footer>
+    <p><h5> Fall @2021 | Harvey Sagario | Philippines | BYU Online<br><span id="time"></span></h5>
+</footer>
+
+
+<script src="../lesson7/js/date.js"></script>
+<script src="../lesson7/js/lazy.js"></script>
 <script src="js/scripts.js"> </script>
+
 </body>
 </html>

@@ -84,12 +84,15 @@ width:1200px;
 height: 1800px;
 margin:50px -50px 0px;;
 background-color:gray;
+
 }
 section {
     width:300px;
     background-color:pink;
-    margin:50px 180px ; 
+    margin:50px 25 0px ; 
     padding: 10px 20px;
+    margin-left:250px;
+margin-top:20px;
 }
 div img {
     height:300px;
@@ -119,6 +122,15 @@ main {
 	margin-left: 20px;
 	font-size: .9rem;
 }
+
+/*HomeEvents*/
+div.town-events .events-content section{
+    background-color:pink;
+    border-style:solid;
+    border-color: gray;
+margin-left:160px;
+margin-top:20px;
+
 /*CONTACT INFORMATION*/
 .main4{
     margin-top:50px;

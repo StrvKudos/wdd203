@@ -1,173 +1,179 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+@media only screen and (min-width: 480px){
 
-/*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; 
-border: none;
-border-radius:5px;}
-header {
-    max-width: 767px;
-    margin: auto;
-}
+    /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+    html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+    
+    /*----------- apply a natural box layout model to all elements --------------*/
+    * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; 
+    border: none;
+    border-radius:5px;}
+    
+    /*HEADER*/
+    
+   
 body {
 	background-color: #bbb;
 	padding: 0;
 	margin: 0;
 }
 
-.headings {
-    display: flex;
-    flex-direction:column;
-    font-family: Lobster, sans-serif, 'Times New Roman';
-}
-.headings h1 {
-    font-size: 50px;
-	margin: 0 0 0 17px;
-}
-main {
-    max-width: 767px;
-    margin: 0 auto;
-    font-family: Pacifico, sans-serif, monospace;
-    text-align: center;
-    font-family: Bitter, sans-serif, monospace;
-}
-.main1 {
-    text-align: center;
-    padding:50px;
-}
-.main3{
-    padding:200px 30px 0px 30px;
-}
-.main4 {
-    padding: 0 20px 50px;
 
-}
-.logo{
-    display:block;
-}
-.m {
-	font-style: italic;
-	letter-spacing: 1pt;
-	color: forestgreen;
-	margin-left: 20px;
-	font-size: .9rem;
-}
+
 header {
+    margin: auto;
 	background-color: #fff;
-	padding: 5px 0;
+	padding: 1px 0;
 	display: flex;
 	align-items:center;
 	justify-content:center;
 }
-nav button {
-    margin:.2rem 2%;
-    background-color:brown;
-    border:none;
-    font-size:1.6rem;
-    color:black;
-    flex:right;
-}
-nav{
-    background-color:#ccc;
-    font-family: Kanit, sans-serif, monospace;
 
-}
-nav ul {
-    list-style-type:none;
-    padding:0;
-    margin:0;
 
-}
-nav ul li a{
-    display:block;
-    padding:.8rem 2%;
-    text-decoration:none;
-    border-top: solid black;
     
-}
-nav ul li .one {
-    background-color:pink; color:black;
-}
-nav ul li a:hover { background-color: green;
-}
-nav ul.hide{display:none;}
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  footer {
-    background-color: #bed;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    padding:0;
-    font-family: Bitter, sans-serif, monospace;
-    max-width: 767px;
-    margin: 0;
-    color: black;
-}
-p {
-    margin: 0;
-    padding:0;
-}
-.update {
-    margin-top:-20px;
-}
-.sum {
-    position: absolute;
-	top: 325px;
-	right: 70px;
-	background: radial-gradient(#eee, #40ca1d);
-	border: 1px solid #000;
-	box-shadow: 0 0 30px #333;
-	opacity: .9;
-    text-align:left;
-
-  
-}
-.img1 {
-    height: 300px;
-    width: 500px;
-}
-.grid { 
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
-    margin: 10px;
-    height:50px;
-}
-.grid-col {
-	margin-right:200x;
-}
-.img2 {
-     height: 200px;
-     width: 100px;
-
-}
-.info {
-    text-align:right;
-    padding:20px;
-}
-.img5 { 
-    height: 250px;
-    width: 400px;
-
-}
-.image3 {
-        padding:20px;
-        height:500px;
-        width:700px;
-        margin: 0px -500px;
-        position:absolute; 
-}
-.grid-col:hover {
-    background-color:blue;
-}
-.img-foot {
-    height:80px;
-    width:80px;
-    margin-right:-20px;
-}
-
+    
+    /*NAVIGATION*/
+    nav button {
+        margin:.2rem 2%;
+        background-color:brown;
+        border:none;
+        font-size:1.6rem;
+        color:black;
+        flex:right;
+    }
+    nav{
+        background-color:#ccc;
+        font-family: Kanit, sans-serif, monospace;
+    
+    }
+    nav ul {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+    } 
+    a {
+        background-color: #00ff4c;
+    }
+    }
+    nav ul li a{
+        display:block;
+        padding:.8rem 2%;
+        text-decoration:none;
+        text-align:center;
+        border-top-style:solid;
+        
+        
+    }
+    nav ul li .one {
+        background-color:pink; 
+        color:black;
+    }
+    nav ul li a:hover { background-color: rgb(77, 240, 77)7, 240, 77);
+    }
+    
+    nav ul.hide{display:none;}
+    /*----- Clearfix: Force an Element not to collapse -----*/
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+    
+    /*CARDS*/
+    .main3 {
+    width:1200px;
+    height: 1800px;
+    margin:50px -50px 0px;;
+    background-color:gray;
+    }
+    section {
+        width:300px;
+        background-color:pink;
+        margin:50px 25 0px ; 
+        padding: 10px 20px;
+    }
+    div img {
+        height:300px;
+        width:250px;
+    }
+    main {
+    
+        font-family: Pacifico, sans-serif, monospace;
+        text-align: center;
+        font-family: Bitter, sans-serif, monospace;
+    }
+    
+    
+    .main1 {
+        text-align: center;
+        padding:
+        20px 0px;
+    }
+    
+    .logo{
+        display:block;
+    }
+    .m {
+        font-style: italic;
+        letter-spacing: 1pt;
+        color: forestgreen;
+        margin-left: 20px;
+        font-size: .9rem;
+    }
+    
+    /*HomeEvents*/
+    div.town-events .events-content section{
+        background-color:pink;
+        border-style:solid;
+        border-color: gray;
+    margin-left:160px;}
+    
+    /*CONTACT INFORMATION*/
+    .main4{
+        margin-top:50px;
+    }
+    .info {
+        text-align:center;
+        padding:50px;
+    }
+    .contactimg{
+        margin-top:100px;
+    }
+    
+    /*FOOTER*/
+    footer {
+        background-color: #bed;
+        font-family: Bitter, sans-serif, monospace;
+        color: black;
+        font-size:50px;
+        
+       
+    }
+    
+    .sum {
+        position: absolute;
+        top: 325px;
+        right: 70px;
+        background: radial-gradient(#eee, #40ca1d);
+        border: 1px solid #000;
+        box-shadow: 0 0 30px #333;
+        opacity: .9;
+        text-align:left;
+    
+      
+    }
+    .grid { 
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+        margin: 10px;
+        height:50px;
+    }
+    .grid-col {
+        margin-right:200x;
+    }
+    
+    .grid-col:hover {
+        background-color:blue;
+    }
+    
+    }

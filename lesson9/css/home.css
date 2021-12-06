@@ -84,6 +84,7 @@ h1 {
     font-family: Bitter, sans-serif, monospace;
     text-shadow:2px 2px #00ff4c;
     margin-top:0px;
+    margin-bottom:10px;
 }
 p {
     margin: 0;
@@ -122,7 +123,33 @@ section {
   
 
 }
+/*HomeEvents*/
 
+div.town-events .events-content{
+    display: grid;
+    margin: auto;
+    width: 65%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right:1800px;
+    line-height:30px;
+    
+}
+
+
+div.town-events .events-content section{
+    max-width: 500px;
+    margin-top:10px;
+    margin-left:50px;
+    background-color:pink;
+    border-style:solid;
+    border-color: gray;
+    text-align:center}
+
+div.town-events.locations .events-content section{
+    max-width: 65%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 /* CONTACT INFO */
 .main4 {
     margin-top:50px;
@@ -135,116 +162,23 @@ section {
     height:500px;
     width:700px;
     position:absolute;
-    margin: -300px -500px;
+    margin: -50px -550px;
 }
 /* FOOTER */
 footer {
     background-color: #bed;
     color: black;
     font-family: Bitter, sans-serif, monospace;
-    margin-top:300px;
+    margin-tSop:400px;
     font-size:50px;
     margin-bottom:-90px;
     line-height: 50px;
 
 }
-h5 {
-    margin-bottom:5px;
-}
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 200px 0px 50px 0px;
-    font-family: Bitter, sans-serif, monospace;
-    background-color: #fff;
-}
-.update{
-    margin-top:0px;
-}
 
-.sum {
-    position: absolute;
-	top: 150px;
-	right: 80px;
-	background: radial-gradient(#eee, #40ca1d);
-	border: 1px solid #000;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #333;
-	opacity: .9;
-    
-}
-#date {
-    margin-right:-500px;
-}
 
-.grid-col{
-    margin-right:600px;
-    margin-left:50px
-}
-.grid-col:hover {
-    background-color:blue;
-    border-style:dotted;
-    border-color:yellow;
-}
 
-form fieldset {
-    border:1px solid black;
-    margin:0 auto;
-    padding: .5rem 2%;
-    border-radius:10px;}
-form legend {
-    font-size:40px;
-    display:block;
-    padding: 5px 5px ;
-    margin: 5px 5px;
 
-}
-form label.top {
-    display:block;
-    
-    
-}
-form label.top input {
 
-}
-input, form label.top select {
-    display:block;
-    font-size:1rem;
-    padding:.75rem .5rem;
-    max-width:20rem;
-    width:100%;
-}
-form fieldset label.sbs input {
-    display:block;
-    
-}
-form input.submitBtn{
-    margin:1rem auto;
-    
-}
-
-form label.top-input:required {
-
-}
-
-form label.top-input:required:valid {
-
-}
-select {
-    display:block;
-}
-div {
-    margin:20px 0 0 5px;
-    display:block;
-}
-
-div {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width:1200px;
-    margin:0 auto;
-    text-align:center;
-}
 
 

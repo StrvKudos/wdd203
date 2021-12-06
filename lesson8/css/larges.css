@@ -5,64 +5,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt&display=swap');
 @media only screen and (min-width: 1024px) {
 
-nav {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,f4007e+100 */
-background: #a90329; /* Old browsers */
-background: -moz-linear-gradient(top,  #a90329 0%, #f4007e 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #a90329 0%,#f4007e 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #a90329 0%,#f4007e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#f4007e',GradientType=0 ); /* IE6-9 */
+/*HEADER*/
+body {
+	background-color: #bbb;
+	padding: 0;
+	margin: 0;
+}
 
-} 
 header {
-    max-width:1200px;
+    margin: 0px auto;
+    background-color: #fff;
+	padding: -50px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
 }
-.img2 {
+.headimg {
     height: 100px;
-    width: 100px;
 }
-.sum {
-    position: absolute;
-	top: 150px;
-	right: 80px;
-	background: radial-gradient(#eee, #40ca1d);
-	border: 1px solid #000;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #333;
-	opacity: .9;
-    text-align:left;
+.title{
+    margin:0 auto 0px 0px;
+    font-size:50px;
+    font-family: Lobster, sans-serif, 'Times New Roman';
 }
-.img1 {
-    height: 300px;
-    width: 700px;
 }
-.img2 {
-    height: 200px;
-    width: 100px;
-
-}
-nav {
-    max-width: 1200px;
-    margin: 0 auto;
-    font-family: Kanit, sans-serif, monospace;
-
-}
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    border-style: solid;
-    border-color: green;
-    text-align: center;
-    padding: 50px 0 50px 0;
-    font-family: Bitter, sans-serif, monospace;
-}
-.main1 {
-    text-align: center;
-    margin: 800px auto;
-    position: relative;
-    margin-top:50px;
+.headings {
+    display: flex;
     
 }
+.heading{
+    margin:-5px 0px;
+    flex-direction:column;
+    font-family: Lobster, sans-serif, 'Times New Roman';
+}
+/*NAV*/
+
+nav {
+    background-color: #00ff4c;
+    font-family: Kanit, sans-serif, monospace;
+    padding:2px 20px 1px 20px;
+    color:black;
+
+}
+
 nav button {
     display:none;
 }
@@ -70,59 +55,39 @@ nav ul.hide {
     display:block;
 }
 nav ul {
-    margin-left:2%;
+ margin-left:2%;
+ list-style-type:none;
 }
-nav ul li {
-    float:left;
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:2px 20px 1px 2px;
+   
+    
 }
 nav ul li a {
-    display: block;
-    text:center;
     border:none;
-    border-right:1px solid rgba(0,0,0,0.3);
-    padding:.9rem 2rem  ;
     font-size:30px;
+    padding:2px 20px 1px 0px;
+    color:black;
+
 }
-}
-footer {
-    background-color: #bed;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px ;
-    max-width: 1200px;
-    margin: 0 auto;
-    color: black;
-    font-family: Bitter, sans-serif, monospace;
-    margin-top:50px;
-    font-size:30px;
-}
-.update {
-    margin-top:-20px;
-}
-.img3 {
-    height:500px;
-    width:700px;W
-    position:absolute;
-    margin: 0 -500px ;
-}
-.grid-col{
-    margin-right:600px;
-    margin-left:50px
-}
-.grid-col:hover {
-    background-color:blue;
-    border-style:dotted;
-    border-color:yellow;
+nav ul li a:hover { background-color.: gray;
+  padding:2px 20px 1px 0px;
 }
 
+
+
+/*FORM,*/
 form fieldset {
     border:1px solid black;
     max-width: 1200px;
     margin:0 auto;
     padding: .5rem 2%;
-    border-radius:10px;}
+    border-radius:10px;
+    background-color:blue;
+}
 form legend {
     font-size:40px;
     display:block;
@@ -168,4 +133,23 @@ div {
     margin:20px 0 0 5px;
     display:block;
 }
+
+
+/*FOOTER*/
+footer {
+    background-color: #bed;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px ;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: black;
+    font-family: Bitter, sans-serif, monospace;
+    margin-top:50px;
+    font-size:30px;
+    text-align:center;
+}
+
 

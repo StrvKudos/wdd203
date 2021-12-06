@@ -128,7 +128,33 @@ section {
   
 
 }
+/*HomeEvents*/
 
+div.town-events .events-content{
+    display: grid;
+    margin: auto;
+    width: 65%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right:1800px;
+    line-height:30px;
+    
+}
+
+
+div.town-events .events-content section{
+    max-width: 500px;
+    margin-top:10px;
+    margin-left:50px;
+    background-color:pink;
+    border-style:solid;
+    border-color: gray;
+    text-align:center}
+
+div.town-events.locations .events-content section{
+    max-width: 65%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 /* CONTACT INFO */
 .main4 {
     margin-top:100px;
@@ -142,7 +168,7 @@ section {
     height:500px;
     width:700px;
     position:absolute;
-    margin: -250px -450px;
+    margin: -80px -450px;
 }
 /* FOOTER */
 footer {
@@ -152,7 +178,7 @@ footer {
     background-color: #bed;
     color: black;
     font-family: Bitter, sans-serif, monospace;
-    margin-top:300px;
+    margin-top:400px;
      margin-bottom:-90px;
     font-size:50px;
     line-height: 50px;

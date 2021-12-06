@@ -26,29 +26,27 @@
 
      
 </head>
-<body>
-<!-- HEADER HERE -->
-	<header>
+<header>       
         
-        <img src="images/Weather2.png"  style="width:100px;height:100px;" alt="Weather logo">
- <section class="headings"><h1>Weather News Company</h1>
-        <q class="m">Life is just a Weather!</q>
-    </header></section>
+    <div class="headings"><img src="images/Weather2.png"  style="width:100px;height:100px;" alt="Weather logo" class="headimg">
+  <h2 class="title">
+      Weather News Company <p class="quote">Life i
+        s just a Weather!</p></h2>
+        </div>
+    </header>
     
     
-<!-- NAVIGATION HERE -->
-<nav class="clearfix">
-    <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="sally" class="hide">
-            <li class="one"><a href="../lesson9/home.html"Home</a></li>
-            <li><a href="../lesson10/preston-10.html">Preston</a></li>
-            <li><a href="../lesson9/home.html">Soda Springs</a></li>
-            <li><a href="../lesson6/Preston-6.html">Fish Havent</a></li>   
-            <li><a href="../lesson8/stormcenter2.html">Storm Center</a></li> 
-            <li><a href="../lesson7/Gallery.html">Gallery</a></li>  
-        </ul>
-    </nav>
-    
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="sally" class="nav-links">
+                <li class="nav-items"><a href="../lesson9/home.html">Home</a></li>
+                <li class="nav-items"><a href="../lesson10/preston-10.html">Preston</a></li>
+                <li class="nav-items"><a href="../lesson9-1/home.html">Soda Springs</a></li>
+                <li class="nav-items"><a href="../lesson6/Preston-6.html">Fish Havent</a></li>   
+                <li class="nav-items"><a href="../lesson8/stormcenter2.html">Storm Center</a></li> 
+                <li class="nav-items"><a href="../lesson7/Gallery.html">Gallery</a></li>  
+            </ul>
+        </nav>
 
 <!-- CONTENT HERE -->
 
@@ -99,20 +97,19 @@
             <fieldset>
 
                 <legend>Additional Information or Comment</legend>
-                <textarea type="text" name="info"   rows="20" cols="100"></textarea>
+                <textarea type="text" name="info"   rows="20" cols="80"></textarea>
             </fieldset>
             <input type="submit" Value="Report Weather Condition" class="submitBtn">
             
         </form>
     
 <!-- FOOTER HERE -->   
-    <footer>
-        <p><h5> Fall @2021 | Harvey Sagario | Philippines | BYU Online</h5>
-		  <h6 class="update">Saturday October 19 2021 Mountain View 5:20pm</h6> <span id="currentdate()"></span>
-        <span id="demo"></span></p>
-        
-    </footer>
-    
-<script src="js/scripts.js"> </script>
+ <!-- FOOTER HERE -->   
+<footer>
+    <p><h5> Fall @2021 | Harvey Sagario | Philippines | BYU Online <br><span id="time"></span></h5>
+</footer>
+
+<script src="../lesson8/js/date.js"></script>
+<script src="../lesson8/js/scripts.js"></script>
 </body>
 </html>
