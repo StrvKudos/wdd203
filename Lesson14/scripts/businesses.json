@@ -1,47 +1,47 @@
 {
     "main": [
         {
-            "name" : "La Costeña",
-            "contact_info" : "Brand dedicated to fabricate canned products founded in 1923 by Vicente Lopez",
-            "logo" : "../images/b-logos/la-costena.png",
-            "link" : "https://www.lacostena.com.mx/es/"
+            "name" : "Jolibee",
+            "contact_info" : "We excel in providing great tasting food that meets local preferences better than anyone. We provide superior dining experience, through FSC (Food, Service, Cleanliness) excellence in every encounter.",
+            "logo" : "../images/b-logos/jollibee.jpg",
+            "link" : "https://www.jollibee.com.ph/vision-and-mission/"
         },
 
         {
-            "name" : "Jumex",
-            "contact_info" : "Brand dedicated to sell juice and nectar. Jumex means 'Jugos Mexicanos' or Mexican Juice",
-            "logo" : "../images/b-logos/jumex.png",
-            "link" : "http://grupojumex.mx/"
+            "name" : "The Borough",
+            "contact_info" : "The Philippines' favorite Pizza parlor.",
+            "logo" : "../images/b-logos/TheBoro.jpg",
+            "link" : "https://www.facebook.com/theboroughpizza"
         },
         {
-            "name" : "Apsa",
-            "contact_info" : "Company dedicated to the fabrication of all types of paper and carboard, in a high quality.",
-            "logo" : "../images/b-logos/apsa.jpg",
-            "link" : "https://www.apsa.com.mx/"
+            "name" : "Mang Inasal",
+            "contact_info" : "To provide great tasting products and quality services to our customers with a great pinoy ambience fast food chain nationwide.",
+            "logo" : "../images/b-logos/manginasal.png",
+            "link" : "https://www.manginasal.com/"
         },
         {
-            "name" : "La Corona",
-            "contact_info" : "Factory dedicated to the fabrication of economic and efficient varieties of soaps and other cleaning supplies",
-            "logo" : "../images/b-logos/la-corona.png",
-            "link" : "https://www.lacorona.com.mx/"
+            "name" : "Robinson Mall",
+            "contact_info" : "To be the supermarket of choice known for fresh and healthy food, clean hygienic stores, competitive prices and excellent customer service. To educate and empower its customers on their choice of food and products that promote healthy living.",
+            "logo" : "../images/b-logos/robinson.png",
+            "link" : "https://www.robinsonsmalls.com/"
         },
         {
-            "name" : "Inalmet",
-            "contact_info" : "Company dedicated to the manufacturing of electronic devices, mostly industrial grade ones",
-            "logo" : "../images/b-logos/inalmet.png",
-            "link" : "http://inalmet.com.mx/contacto/"
+            "name" : "Talavera",
+            "contact_info" : "Talavera Group of Companies is one of the top growing company in Isabela. TGC is a company that will provide high quality services (lending, leasing, retail and others) to it's client. TGC is a single proprietorship, owned and manage by Mr. Gaudioso Talavera.",
+            "logo" : "../images/b-logos/talavera.png",
+            "link" : "https://www.facebook.com/talavera.hrdcauayan/"
         },
         {
-            "name" : "IPISA",
-            "contact_info" : "Manufacturers of industrial grade equipment, mostly hidraulic technology",
-            "logo" : "../images/b-logos/ipisa.jpg",
-            "link" : "https://ipisa.com.mx/"
+            "name" : "Angels Burger",
+            "contact_info" : "One of the biggest burger fastfood in the PH. You can see them in every city and its they offer a very cheap burger but very delicious",
+            "logo" : "../images/b-logos/angels.png",
+            "link" : "https://heavensburgerfranchise.weebly.com/"
         },
         {
-            "name" : "AQUAVITT",
+            "name" : "Kultura",
             "contact_info" : "Enterprise dedicated to the manufacturing, sale and instalation of water purifying plant equipment",
-            "logo" : "../images/b-logos/aquavitt.jpg",
-            "link" : "https://www.aquavitt.com.mx/"
+            "logo" : "../images/b-logos/kultura.png",
+            "link" : "https://www.kulturafilipino.com/"
         }
     ]
 }
